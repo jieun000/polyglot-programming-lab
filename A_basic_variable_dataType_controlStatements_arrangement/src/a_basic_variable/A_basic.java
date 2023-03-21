@@ -11,7 +11,7 @@ public class A_basic {
 		System.out.println("오신 것을");
 		System.out.println("환영합니다.");
 		
-		System.out.printf("Jieun님 ");
+		System.out.printf("Java_eclipse");
 		System.out.printf("Excellent");
 
 	}
