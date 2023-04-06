@@ -2,7 +2,7 @@ package b_controlStatement;
 
 import java.util.Scanner;
 
-public class B_if_Practice2_average {
+public class C_if_Practice2_average {
 
 	public static void main(String[] args) {
 		

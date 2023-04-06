@@ -2,7 +2,7 @@ package b_controlStatement;
 
 import java.util.Scanner;
 
-public class B_if_Practice3_alarm {
+public class C_if_Practice3_alarm {
 
 	public static void main(String[] args) {
 		
