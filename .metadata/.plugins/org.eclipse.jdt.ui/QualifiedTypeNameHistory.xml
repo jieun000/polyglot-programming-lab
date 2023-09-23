@@ -35,4 +35,7 @@
     <fullyQualifiedTypeName name="e_interface.MissileStrategy"/>
     <fullyQualifiedTypeName name="e_interface.MovingStrategy"/>
     <fullyQualifiedTypeName name="e_interface.WalkingStrategy"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="a_thread.RunnableImple"/>
 </qualifiedTypeNameHistroy>
