@@ -36,7 +36,10 @@
     <fullyQualifiedTypeName name="e_interface.MovingStrategy"/>
     <fullyQualifiedTypeName name="e_interface.WalkingStrategy"/>
     <fullyQualifiedTypeName name="a_thread.ThreadExtend"/>
+    <fullyQualifiedTypeName name="a_thread.RunnableImple"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
-    <fullyQualifiedTypeName name="a_thread.RunnableImple"/>
+    <fullyQualifiedTypeName name="java.lang.EnumConstantNotPresentException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 </qualifiedTypeNameHistroy>
