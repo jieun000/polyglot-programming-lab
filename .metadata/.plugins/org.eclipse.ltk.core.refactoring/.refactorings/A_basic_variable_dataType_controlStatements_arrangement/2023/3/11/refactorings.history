@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;a&apos; to &apos;a_basic_variable&apos;&#x0D;&#x0A;- Original project: &apos;A_basic_variable_dataType_controlStatements_arrangement&apos;&#x0D;&#x0A;- Original element: &apos;A_basic_variable_dataType_controlStatements_arrangement/src/a&apos;&#x0D;&#x0A;- Renamed element: &apos;A_basic_variable_dataType_controlStatements_arrangement/src/a_basic_variable&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;a&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;a" name="a_basic_variable" qualified="false" references="true" stamp="1678975472590" textual="false" version="1.0"/>
-</session>
