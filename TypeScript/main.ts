@@ -1,2 +1,2 @@
-console.log("TS");
-console.log("TypeScript");
+console.log("Hello TypeScript World");
+console.log("TS: TypeScript");
