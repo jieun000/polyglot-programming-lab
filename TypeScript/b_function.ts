@@ -47,8 +47,19 @@ const range = (from: number, to:number): number[] => {
 }
 const array: number[] = range(1, 11);
 let oddsFilter: number[] = array.filter((value)=> value % 2 != 0);
-console.log(oddsFilter);
+console.log('filter:', oddsFilter);
 
 const half = array.length / 2;
-let overFilter: number[] = array.filter((v, index)=> index >= half);
-console.log(overFilter);
+let overFilter: number[] = array.filter((val, index)=> index >= half);
+console.log('filter:', overFilter);
+
+let mapFunc1: number[] = range(0, 3).map((val: number)=> val * 2);
+console.log('map:', mapFunc1);
+
+let mapFunc2: string[] = range(0, 3).map((val, index)=> `[${index}]: ${val * 2}`);
+console.log('map:', mapFunc2);
+
+let reduceFunc1: number 
+    = range(1, 6)
+        .reduce((result: number, value: number)=> result * value, 1);
+console.log(reduceFunc1);
