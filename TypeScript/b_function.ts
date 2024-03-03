@@ -62,4 +62,25 @@ console.log('map:', mapFunc2);
 let reduceFunc1: number 
     = range(1, 6)
         .reduce((result: number, value: number)=> result * value, 1);
-console.log(reduceFunc1);
+console.log('reduce:', reduceFunc1);
+
+function forPure(array: readonly number[]) {
+    // array.push(10);
+}
+
+const original = 1;
+const deepCopy = original;
+console.log(original, deepCopy);
+
+const originalArray = [1, 2, 3, 4];
+const shallowCopy = originalArray;
+shallowCopy[3] = 5;
+console.log(originalArray, shallowCopy);
+
+const deepCopyArr = [...originalArray];
+deepCopyArr[2] = 7;
+console.log(originalArray, deepCopyArr);
+
+const tuple1: any[] = [true, 'ths ts tuple'];
+const tuple2: [boolean, string] = [true, 'ths ts tuple'];
+console.log(tuple1, tuple2);
